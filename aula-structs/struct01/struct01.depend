@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1740751091 source:/home/cesar/Curso Linguagem C Lazaro_INPE/aula-structs/struct01/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
