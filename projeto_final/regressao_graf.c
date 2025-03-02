@@ -84,8 +84,11 @@ int main()
     name("X-axis", "x"); // Label for X-axis
     name("Y-axis", "y"); // Label for Y-axis
 
-    labdig(-1, "x"); // Number of decimal places for X-axis
-    ticks(9, "x");   // Number of ticks on X-axis
+    //labdig(-1, "x"); // Number of decimal places for X-axis
+    //ticks(9, "x");   // Number of ticks on X-axis
+    // Sets the formatting of the X-Axis labels
+    labdig(2, "x"); // Shows 2 decimal places on the X-Axis
+    labels("FLOAT", "x"); // Uses floating point formatting for the X-Axis
     ticks(10, "y");  // Number of ticks on Y-axis
 
     titlin("Linear Regression Plot", 1); // Title of the plot
