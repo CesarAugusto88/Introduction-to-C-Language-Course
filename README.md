@@ -22,6 +22,6 @@ Abaixo está uma captura de tela do gráfico gerado pelo programa:
 3. Adicione o caminho da DISLIN ao seu ambiente de compilação. Por exemplo:
    ```bash
    export DISLIN=/usr/local/dislin
-   export LD_LIBRARY_PATH=$DISLIN:$LD_LIBRARY_PATH ```
+   export LD_LIBRARY_PATH=$DISLIN:$LD_LIBRARY_PATH
 4. Parâmetros passados para configurar a compilação do programa:
    ``` gcc regressao_graf.c -o regressao_graf -I/usr/local/dislin/include -L/usr/local/dislin/lib -ldislin -lm ```
